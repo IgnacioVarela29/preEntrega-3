@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billeteras</title>
+    <link rel="stylesheet" href="../paginaPrincipal/preEntrega3.css">
+</head>
+<body>
+    <h1>VW.com</h1>
+    <h3 id="mensajeBienvenida"></h3>       
+    <h2>Cree sus Virtual Wallets aquí:</h2>
+
+    <input type="text" id="nombreDeWallet" placeholder="Nombre de la Wallet">
+    <input type="text" id="moneda" placeholder="Moneda: USD, BTC, etc...">
+    <input type="number" id="saldo" placeholder="Saldo actual" min="0">
+    <button id="boton">Agregar</button>
+
+    <h2>Sus Wallets:</h2>
+    <h3>NOMBRE | MONEDA | SALDO INICIAL | SALDO ACTUAL</h3>
+
+    <div id="listaDeBilleteras"></div>
+
+    <script src="billeteras.js"></script>
+</body>
+</html>
